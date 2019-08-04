@@ -1,0 +1,26 @@
+{
+  "name": "back-sqlite-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node src/index.js",
+    "dev": "nodemon --exec npm run babel-node"
+  },
+  "keywords": [],
+  "author": "Julian Fauricio Valencia Marin",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "sequelize": "^5.12.2",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
